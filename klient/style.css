@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+
+display: flex;
+flex-direction: column;
+}
+
+#menu{
+    height: 20vh;
+    width: 100%;
+background-color: rgb(94, 93, 93);
+
+display: flex;
+flex-direction: row;
+align-content: center;
+flex-wrap: wrap;
+}
+
+#content{
+    height: 80vh;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+ul{
+display: flex;
+flex-direction: row;
+gap: 20px;
+list-style-type: none;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginform{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+}
